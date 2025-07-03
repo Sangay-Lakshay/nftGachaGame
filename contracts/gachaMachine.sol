@@ -19,13 +19,13 @@ contract GachaMachine {
     constructor(address nftAddress) {
         nftContract = IERC721(nftAddress);
         // Initialize the gacha machine with a specific NFT
-        rarities.push(NFTInfo(0, "Legendary", 5));
-        rarities.push(NFTInfo(1, "Rare", 25));
-        rarities.push(NFTInfo(2, "Rare", 25));
-        rarities.push(NFTInfo(3, "Common", 70));
-        rarities.push(NFTInfo(4, "Common", 70));
-        rarities.push(NFTInfo(5, "Common", 70));
-        rarities.push(NFTInfo(6, "Common", 70));
+        rarities.push(NFTInfo(0, "Legendary", 3));
+        rarities.push(NFTInfo(1, "Rare", 9));
+        rarities.push(NFTInfo(2, "Rare", 9));
+        rarities.push(NFTInfo(3, "Common", 20));
+        rarities.push(NFTInfo(4, "Common", 20));
+        rarities.push(NFTInfo(5, "Common", 20));
+        rarities.push(NFTInfo(6, "Common", 20));
     }
 
     function pullGacha() external payable returns (NFTInfo memory) {

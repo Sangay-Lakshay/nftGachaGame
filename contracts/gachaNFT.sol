@@ -12,7 +12,7 @@ contract GachaNFT is ERC721URIStorage, Ownable {
         'bafkreic64mfmetvazqfqipbtckiwtdjcobu4hhe54xr3azpqwh5pyrdgne',
         'bafkreiarvbb5fo5qimbtfqms3pvdjgnub7tbbonpb3zv65eijhkmh5rchu',
         'bafkreibfrsh3gbnyz24fapgaja5sebx2fnlpbep56s3gt2hagwpxric6oi',
-        'bafkreihupj62yqa4avj2wzk4pguuflpvkgmh4n2yhkmy4p6a5mts5m7jfe',
+        'bafkreialhp2behpuqn3fnp5xbke2vfdctuqeqfbl2oasjtbwpnvkx2xtny',
         'bafkreibfcg5njbpufkmiyzwfk2tzm5vy7d74eme4re3qxf2pf7ueozwlfu',
         'bafkreigzllcv5ha3zz33sbqtasmyaxxxxypbttlzfozcx34egbifqoespe',
         'bafkreigcqurfcwpztto3bi4s2wfvsxz47fkrqdrisb2g2yhi5vosol4fp4'
